@@ -22,7 +22,6 @@ export default class extends Controller {
     this.modalTarget.classList.remove("hidden")
     enter(this.modalBackgroundTarget)
     enter(this.modalBodyTarget)
-    this._toggleSearchBar()
 
   }
   
@@ -30,7 +29,6 @@ export default class extends Controller {
     this.modalTarget.classList.add("hidden")
     leave(this.modalBackgroundTarget)
     leave(this.modalBodyTarget)
-    this._toggleSearchBar()
     this._emptyInputs()
   }
 
