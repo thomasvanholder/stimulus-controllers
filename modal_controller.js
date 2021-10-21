@@ -22,7 +22,6 @@ export default class extends Controller {
     this.modalTarget.classList.remove("hidden")
     enter(this.modalBackgroundTarget)
     enter(this.modalBodyTarget)
-
   }
   
   _close(){
