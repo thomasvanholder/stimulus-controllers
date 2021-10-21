@@ -50,11 +50,4 @@ export default class extends Controller {
       }
     }
   }
-
-  _toggleSearchBar(){
-    const searchBar = document.getElementById("searchBar")
-    if (searchBar) {
-      searchBar.classList.remove("sticky")
-    }
-  }
 }
